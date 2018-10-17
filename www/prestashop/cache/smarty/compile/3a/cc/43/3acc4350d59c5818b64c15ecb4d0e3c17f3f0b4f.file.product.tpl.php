@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-10-17 13:47:25
+<?php /* Smarty version Smarty-3.1.19, created on 2018-10-17 14:52:36
          compiled from "Z:\home\test-altopromo.ru\www\prestashop\themes\default-bootstrap\product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:315245bc6f71d1d36d1-65240370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:220365bc73ea4876655-99497024%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '315245bc6f71d1d36d1-65240370',
+  'nocache_hash' => '220365bc73ea4876655-99497024',
   'function' => 
   array (
   ),
@@ -111,9 +111,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5bc6f71f191a67_23547885',
+  'unifunc' => 'content_5bc73ea745c514_90476050',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bc6f71f191a67_23547885')) {function content_5bc6f71f191a67_23547885($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'Z:\\home\\test-altopromo.ru\\www\\prestashop\\tools\\smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5bc73ea745c514_90476050')) {function content_5bc73ea745c514_90476050($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'Z:\\home\\test-altopromo.ru\\www\\prestashop\\tools\\smarty\\plugins\\modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include 'Z:\\home\\test-altopromo.ru\\www\\prestashop\\tools\\smarty\\plugins\\function.math.php';
 if (!is_callable('smarty_function_cycle')) include 'Z:\\home\\test-altopromo.ru\\www\\prestashop\\tools\\smarty\\plugins\\function.cycle.php';
 if (!is_callable('smarty_function_counter')) include 'Z:\\home\\test-altopromo.ru\\www\\prestashop\\tools\\smarty\\plugins\\function.counter.php';
@@ -859,7 +859,7 @@ $_smarty_tpl->tpl_vars['accessory']->_loop = true;
 											<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value&&($_smarty_tpl->tpl_vars['accessory']->value['allow_oosp']||$_smarty_tpl->tpl_vars['accessory']->value['quantity']>0)&&isset($_smarty_tpl->tpl_vars['add_prod_display']->value)&&$_smarty_tpl->tpl_vars['add_prod_display']->value==1) {?>
 												<div class="no-print">
 													<a class="exclusive button ajax_add_to_cart_button" href="<?php ob_start();?><?php echo intval($_smarty_tpl->tpl_vars['accessory']->value['id_product']);?>
-<?php $_tmp61=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('cart',true,null,"qty=1&amp;id_product=".$_tmp61."&amp;token=".((string)$_smarty_tpl->tpl_vars['static_token']->value)."&amp;add"), ENT_QUOTES, 'UTF-8', true);?>
+<?php $_tmp7=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('cart',true,null,"qty=1&amp;id_product=".$_tmp7."&amp;token=".((string)$_smarty_tpl->tpl_vars['static_token']->value)."&amp;add"), ENT_QUOTES, 'UTF-8', true);?>
 " data-id-product="<?php echo intval($_smarty_tpl->tpl_vars['accessory']->value['id_product']);?>
 " title="<?php echo smartyTranslate(array('s'=>'Add to cart'),$_smarty_tpl);?>
 ">

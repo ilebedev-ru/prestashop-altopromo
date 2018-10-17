@@ -115,9 +115,9 @@
         background: -ms-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
         background: linear-gradient(to bottom, #f7f7f7 0%, #ededed 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ededed',GradientType=0); }
-        #cms #center_column #admin-action-cms p .button.lnk_view:hover {
+        /*#cms #center_column #admin-action-cms p .button.lnk_view:hover {
           border-color: #9e9e9e #9e9e9e #c8c8c8 #9e9e9e;
           filter: none;
-          background: #e7e7e7; }
+          background: #e7e7e7; }*/
 
 /*# sourceMappingURL=cms.css.map */

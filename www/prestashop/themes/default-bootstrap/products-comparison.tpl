@@ -81,16 +81,16 @@
 										<span class="old-price product-price">
 											{displayWtPrice p=($product->getPrice(true, null, 6, null, false, false))}
 										</span>
-										<span class="price-percent-reduction">
+							<!-- 			<span class="price-percent-reduction">
 											-{$product->specificPrice.reduction*100|floatval}%
-										</span>
+										</span> -->
 									{else}
 										<span class="old-price product-price">
 											{convertPrice price=($product->getPrice($taxes_behavior) + $product->specificPrice.reduction)}
 										</span>
-										<span class="price-percent-reduction">
+					<!-- 					<span class="price-percent-reduction">
 											-{convertPrice price=$product->specificPrice.reduction}
-										</span>
+										</span> -->
 									{/if}
 									{hook h="displayProductPriceBlock" product=$product type="old_price"}
 								{/if}

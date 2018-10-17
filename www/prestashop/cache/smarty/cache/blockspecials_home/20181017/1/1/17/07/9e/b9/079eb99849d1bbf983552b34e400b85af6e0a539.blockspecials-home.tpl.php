@@ -16,16 +16,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '209945bc6fe78f27134-56926459',
-  'variables' => 
-  array (
-    'specials' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5bc6fe791009e0_74162963',
+  'unifunc' => 'content_5bc704bda01ee1_81084024',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bc6fe791009e0_74162963')) {function content_5bc6fe791009e0_74162963($_smarty_tpl) {?>		
+<?php if ($_valid && !is_callable('content_5bc704bda01ee1_81084024')) {function content_5bc704bda01ee1_81084024($_smarty_tpl) {?>		
 									
 		
 	
